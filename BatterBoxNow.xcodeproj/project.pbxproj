@@ -98,11 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				B174F16B22FEACC000D9B87E /* AppDelegate.swift */,
-				B174F16D22FEACC000D9B87E /* ViewController.swift */,
-				B174F16F22FEACC000D9B87E /* Main.storyboard */,
 				B174F17222FEACC300D9B87E /* Assets.xcassets */,
-				B174F17422FEACC300D9B87E /* LaunchScreen.storyboard */,
 				B174F17722FEACC400D9B87E /* Info.plist */,
+				CCFD2F6F231BB705000FF8C6 /* Controller */,
+				CCFD2F6E231BB6EB000FF8C6 /* View */,
 			);
 			path = BatterBoxNow;
 			sourceTree = "<group>";
@@ -123,6 +122,23 @@
 				B174F18D22FEACC400D9B87E /* Info.plist */,
 			);
 			path = BatterBoxNowUITests;
+			sourceTree = "<group>";
+		};
+		CCFD2F6E231BB6EB000FF8C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B174F16F22FEACC000D9B87E /* Main.storyboard */,
+				B174F17422FEACC300D9B87E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCFD2F6F231BB705000FF8C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B174F16D22FEACC000D9B87E /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
